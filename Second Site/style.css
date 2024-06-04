@@ -1,0 +1,557 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+li {
+	text-transform: uppercase;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.container {
+	margin-left: 214px;
+	margin-right: 214px;
+}
+
+.main-page {
+	background-image: url("assents/image/bg.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.upbar {
+	padding-top: 29px;
+	display: flex;
+	gap: 75px;
+}
+
+.logo img {
+	width: 220px;
+}
+
+.about {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.address,
+.email,
+.сontact {
+	display: flex;
+	gap: 8px;
+}
+
+.address img,
+.email img,
+.сontact img {
+	width: 15px;
+}
+
+.upbar-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+	color: white;
+	opacity: 40%;
+}
+
+.upbar-suntext {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21.09px;
+	color: #ffffff;
+	opacity: 80%;
+}
+
+.sub-bar,
+.footer-subinfo {
+	background-color: rgba(255, 255, 255, 0.1);
+	margin-left: -214px;
+	margin-right: -214px;
+}
+
+.sub-bar-ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style-type: none;
+	margin-left: 214px;
+	margin-right: 214px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.addition-list {
+	display: none;
+}
+
+.title-text {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 7.5rem;
+	font-weight: 700;
+	line-height: 126.09px;
+	color: #ffffff;
+}
+
+.subtitle-text {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 3.9rem;
+	font-weight: 400;
+	line-height: 66px;
+	color: #ffffff;
+}
+
+.button-more {
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	padding: 10px 30px;
+	background: transparent;
+	text-align: center;
+	margin-top: 10px;
+
+	cursor: pointer;
+}
+
+.arrow-left,
+.arrow-right {
+	position: absolute;
+	cursor: pointer;
+}
+
+.main-text {
+	position: relative;
+}
+
+.arrow-left {
+	left: -130px;
+	top: 105px;
+}
+.arrow-right {
+	right: -130px;
+	top: 105px;
+}
+
+.mobilety,
+.services-main,
+.car,
+.forest {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	gap: 14px;
+}
+
+.upfooter-title {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 14px;
+	line-height: 26px;
+	color: #171717;
+}
+
+.upfooter {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 145px;
+	padding-bottom: 60px;
+}
+
+.upfooter-subtext {
+	font-family: "Montserrat", sans-serif;
+	font-size: 11px;
+	color: #00629f;
+}
+
+.service {
+	background: linear-gradient(to bottom, #ffffff 50%, #f6f8f9 50%);
+}
+
+.service-mainblock {
+	padding-bottom: 110px;
+}
+
+.service-title {
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	gap: 35px;
+	margin-bottom: 60px;
+	margin-top: 70px;
+}
+
+.left-service-title {
+	display: flex;
+	align-items: center;
+	gap: 35px;
+}
+
+.left-text-title-service {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 3.2em;
+	font-weight: 600;
+}
+
+.left-image-title-service img {
+	width: 30px;
+	vertical-align: middle;
+}
+
+.right-service-title {
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: #484848;
+}
+
+.service-cards {
+	height: 500px;
+	width: 30%;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.service-cards-img img {
+	width: 100%;
+}
+
+.service-mainblock {
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-cards-info {
+	text-align: left;
+	padding: 25px;
+	padding-bottom: 0px;
+	background-color: #ffffff;
+}
+
+.service-cards-title {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.service-cards-subtext {
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.8rem;
+	line-height: 15px;
+	color: #484848;
+	margin-top: 15px;
+}
+
+.service-cards-button-text {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 0.9rem;
+	color: #006db1;
+}
+
+.service-cards-button {
+	display: flex;
+	gap: 5px;
+	position: absolute;
+	left: 25px;
+	bottom: 35px;
+}
+
+.service-cards-button-icon img {
+	vertical-align: middle;
+}
+
+.technology {
+	background-image: url("assents/image/technology-bg.svg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.technology-cards-block {
+	display: flex;
+	gap: 25px;
+}
+
+.technology-left-cards-block {
+	width: 62%;
+}
+
+.technology-left-card-img img {
+	width: 100%;
+}
+
+.technology-undertext-card {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 1.1rem;
+}
+
+.technology-left-card {
+	background-color: #ffffff;
+}
+
+.technology-left-card-text {
+	padding: 20px 15px;
+}
+
+.technology-left-under {
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 15px;
+	gap: 25px;
+}
+
+.technology-left-under-image img {
+	width: 39px;
+}
+
+.technology-left-under-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	color: #484848;
+}
+
+.technology-cards-button {
+	display: flex;
+	margin-left: 13.3%;
+}
+
+.technology-right-cards-block {
+	width: 38%;
+}
+
+.top-technology-right-card-img img {
+	width: 100%;
+}
+
+.top-technology-right-card-text {
+	padding: 10px 15px;
+}
+
+.top-technology-right-card {
+	background-color: #ffffff;
+	margin-bottom: 15px;
+}
+
+.bottom-technology-right-card {
+	background-color: #ffffff;
+}
+
+.bottom-technology-right-card-text {
+	padding: 20px 15px;
+}
+
+.technology-mainblock {
+	padding-bottom: 50px;
+}
+
+.project {
+	position: relative;
+}
+
+.right-project-title {
+	display: flex;
+	gap: 10px;
+	margin-left: 4%;
+}
+
+.educational,
+.office,
+.hangars {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 0.9rem;
+	color: #006db1;
+
+	padding: 9px 12px;
+	background-color: #ffffff;
+	border: 2px solid #006db1;
+}
+
+.project-arrow-left,
+.project-arrow-right {
+	cursor: pointer;
+	position: absolute;
+}
+
+.project-arrow-left {
+	left: 3%;
+	top: 50%;
+}
+
+.project-arrow-right {
+	right: 3%;
+	top: 50%;
+}
+
+.project-cards-block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-card {
+	width: 32%;
+}
+
+.project-card-image img {
+	width: 100%;
+}
+
+.project-card-title {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 17px;
+	text-align: left;
+	color: #171717;
+
+	padding-top: 20px;
+	padding-bottom: 11px;
+}
+
+.project-card-locate {
+	display: flex;
+	gap: 5px;
+}
+
+.project-card-locate-place {
+	font-family: "Montserrat", sans-serif;
+	font-size: 13px;
+	color: #006db1;
+}
+
+.company {
+	background-color: #f6f8f9;
+	background-image: url("assents/image/company/bg.svg");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 2% 65%;
+}
+
+.company .service-title {
+	background-color: #f6f8f9;
+	padding-top: 70px;
+}
+
+.addition-div {
+	padding-bottom: 100px;
+}
+
+.company-info-block {
+	margin-left: auto;
+	width: 60%;
+	height: 300px;
+	background-color: #ffffff;
+	padding: 50px 50px;
+}
+
+.company-text {
+	font-family: "Montserrat", sans-serif;
+
+	font-size: 0.9rem;
+	line-height: 22px;
+}
+
+.company-info-block .technology-cards-button {
+	margin-left: 0;
+	margin-top: 25px;
+}
+
+.footer {
+	background-color: #006db1;
+}
+
+.footer .sub-bar-ul {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.footer-title-list {
+	width: 100%;
+	height: 100px;
+
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+
+}
+
+.footer-main-info {
+	display: flex;
+	justify-content: space-between;
+
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.footer-main-info-image img {
+	width: 85px;
+}
+
+.footer-main-info-connection-title,
+.footer-main-info-connection .address-title,
+.footer-subinfo-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #9ac2db;
+	opacity: 1;
+}
+
+.footer-main-info-connection-subtext,
+.footer-main-info-connection .address-subtitle,
+.footer-main-info-contact-mailBlock-email{
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	color: #ffffff;
+}
+
+.footer-main-info-connection .address-icon img {
+	width: 0.9em;
+}
+
+.footer-main-info-contact-mailBlock {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.footer-main-info-contact-number {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 18px;
+	line-height: 15px;
+	color: #ffffff;
+}
+
+.footer-subinfo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+
+	padding: 30px 214px;
+}
+
+.footer-subinfo-developer {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.footer-subinfo-developer-text {
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #9ac2db;
+}
+
+
